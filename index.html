@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix klon</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+      <img src="images/netflix-logo.png" alt="Netflix" class="logo" />
+      <a href="register.html" class="btn btn--small">Registrace</a>
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+      <div class="hero__overlay"></div>
+
+      <div class="hero__content">
+        <h1>Neomezené sledování filmů, TV pořadů a dalšího obsahu</h1>
+        <h2>Už od 239 Kč. Zrušte kdykoli.</h2>
+        <p>Zadejte e-mail a vytvořte nebo restartujte své členství.</p>
+
+        <form class="hero__form">
+          <input type="email" placeholder="E-mailová adresa" required />
+          <button class="btn btn--hero">Začít</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ================= MOVIES PREVIEW ================= -->
+    <section class="movies">
+      <div class="movies__content">
+        <div class="movies__posters">
+          <img src="images/avengers.jpg" alt="Avengers" />
+          <img src="images/bugs-life.jpeg" alt="A Bug's Life" />
+          <img src="images/thor.jpeg" alt="Thor" />
+        </div>
+      </div>
+
+      <div class="movies__button-wrapper">
+        <a href="movies.html?q=girl" class="btn">Najít další filmy</a>
+      </div>
+    </section>
+
+    <!-- ================= SCROLL TO TOP ================= -->
+    <button class="scroll-top-btn" aria-label="Na úvod">
+      <i class="fa-regular fa-circle-up"></i>
+    </button>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+      <div class="footer__container">
+        <ul class="footer__column">
+          <li><a href="#">Často kladené dotazy</a></li>
+          <li><a href="#">Vztahy s investory</a></li>
+          <li><a href="#">Jak se dívat</a></li>
+          <li><a href="#">Podnikové informace</a></li>
+          <li><a href="#">Právní oznámení</a></li>
+        </ul>
+
+        <ul class="footer__column">
+          <li><a href="#">Centrum zákaznické podpory</a></li>
+          <li><a href="#">Kariéra</a></li>
+          <li><a href="#">Podmínky používání</a></li>
+          <li><a href="#">Kontaktujte nás</a></li>
+          <li><a href="#">Uvádí jedině Netflix</a></li>
+        </ul>
+
+        <ul class="footer__column">
+          <li><a href="#">Účet</a></li>
+          <li><a href="#">Uplatněte dárkové poukazy</a></li>
+          <li><a href="#">Soukromí</a></li>
+          <li><a href="#">Test rychlosti</a></li>
+          <li><a href="#">Reklamy</a></li>
+        </ul>
+
+        <ul class="footer__column">
+          <li><a href="#">Pro média</a></li>
+          <li><a href="#">Koupit dárkové poukazy</a></li>
+          <li><a href="#">Nastavení souborů cookie</a></li>
+          <li><a href="#">Právní záruka</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

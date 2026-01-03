@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <!-- ===== META ===== -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Filmy</title>
+
+    <!-- ===== GOOGLE FONT ===== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ===== FONT AWESOME (icons – shared) ===== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- ===== MAIN STYLES ===== -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- =================================================
+         HEADER (shared layout)
+    ================================================== -->
+    <header class="header">
+      <img src="images/netflix-logo.png" alt="Netflix" class="logo" />
+      <a href="index.html" class="btn btn--small">Úvodní strana</a>
+    </header>
+
+    <!-- =================================================
+         MOVIES PAGE
+    ================================================== -->
+    <main class="movies-page">
+      <!-- ===== FILTER / SEARCH ===== -->
+      <section class="movies-page__controls">
+        <select id="searchSelect" class="movies-page__select">
+          <option value="girl">Girl</option>
+          <option value="love">Love</option>
+          <option value="war">War</option>
+          <option value="crime">Crime</option>
+        </select>
+      </section>
+
+      <!-- ===== MOVIES RESULTS ===== -->
+      <section class="movies-page__results">
+        <div id="moviesContainer" class="movies-page__grid"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
