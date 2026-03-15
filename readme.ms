@@ -3,7 +3,7 @@
 Jednoduchý frontendový projekt inšpirovaný rozhraním Netflixu.  
 Projekt slúži ako **portfólio ukážka** práce s čistým HTML, CSS a JavaScriptom bez použitia frameworkov.
 
-
+netflixclone-lac-three.vercel.app
 ---
 
 ## 📄 Pages
